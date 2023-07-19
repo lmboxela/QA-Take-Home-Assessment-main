@@ -1,0 +1,28 @@
+1. Terms and Condtions HyperLinks direct to the Privacy endpoint
+
+Steps to Produce:
+    1. Launch base url = http://127.0.0.1:6464
+    2. Click on Terms and Conditions hyper link then verify current url
+    current url = http://127.0.0.1:6464/privacy
+    Copy displayed: This is the privacy document. We are not yet ready with it. Stay tuned!
+
+    Expected results:
+         url = http://127.0.0.1:6464/terms
+
+
+ 2. Privacy HyperLinks direct to the Terms and Conditions endpoint
+
+    Steps to Produce:
+        1. Launch base url = http://127.0.0.1:6464
+        2. Click on Privacy hyper link then verify current url
+        current url = http://127.0.0.1:6464/terms
+        Copy displayed: This is the terms and conditions document. We are not yet ready with it. Stay tuned!
+
+    Expected Results:
+        url = http://127.0.0.1:6464/privacy
+
+ 3. Healthforce link is not respnsive when clicked
+
+    Steps to Produce:
+        1. Launch base url = http://127.0.0.1:6464
+        2. See nothing happens
